@@ -1,0 +1,154 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   background: #7296cc;
+    color: #222;
+}
+
+/* MAIN CONTAINER */
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* TOP BAR */
+.top-bar {
+    width: 100%;
+    background: #1c4b82;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* TITLES */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1c4b82;
+}
+
+/* INPUT GROUP */
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.input-group input, 
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cfd3d9;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-group textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* BUTTONS */
+.btn {
+    background: #1c4b82;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+}
+
+.btn:hover {
+    background: #163a63;
+    transition: 2s;
+}
+
+/* FULL WIDTH BUTTON */
+.full-btn {
+    width: 100%;
+}
+
+/* BUTTON GROUP */
+.btn-group {
+    margin-top: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 18px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.balance-card {
+    text-align: center;
+    background: linear-gradient(135deg, #1c4b82, #2468b1);
+    color: white;
+}
+
+.balance-card h3 {
+    margin-bottom: 10px;
+}
+
+.balance-card p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* NOTES & TEXT */
+.note {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.note a {
+    color: #1c4b82;
+    font-weight: bold;
+}
+
+/* LOGOUT BUTTON */
+.logout {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logout-btn {
+    background: #d9534f;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background: #b94441;
+}
+
+/* RESPONSIVE */
+@media (min-width: 700px) {
+    .container {
+        width: 450px;
+    }
+}

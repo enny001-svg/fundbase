@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Pay-ID - Reward App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <h2>Purchase Pay-ID</h2>
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Get Your Pay-ID</h3>
+            <p style="margin-top: 10px;">
+                Pay-ID Price: <strong>2000Naira</strong>
+                Transfer to<strong> 1004253105 FCMB</strong>
+            </p>
+
+            <div class="input-group" style="margin-top: 15px;">
+                <label>Your Email</label>
+                <input type="email" id="payidEmail" placeholder="Enter your email">
+                
+            </div>
+
+            <div class="input-group">
+                <label>Payment Method</label>
+                <select id="paymentMethod" style="
+                    width: 100%; 
+                    padding: 12px;
+                    border-radius: 5px;
+                    border: 1px solid #cfd3d9;
+                    font-size: 16px;">
+                    <option value="bank">Bank Transfer</option>
+                </select>
+                    <strong>You'll recieve pay id code via email after payment</strong>
+            </div>
+
+            <button id="buyPayIdBtn" class="btn full-btn">Verify Payment</button>
+        </div>
+
+        <div class="btn-group">
+            <a href="dashboard.html" class="btn full-btn">Back to Dashboard</a>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
